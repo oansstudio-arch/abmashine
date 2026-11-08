@@ -1,0 +1,25 @@
+{
+  "name": "Abmashine™ — Ab Training Challenge",
+  "short_name": "Abmashine",
+  "description": "Your challenge. Your rules. Every day one step closer.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#10091C",
+  "theme_color": "#10091C",
+  "icons": [
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

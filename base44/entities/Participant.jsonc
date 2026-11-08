@@ -1,0 +1,55 @@
+{
+  "name": "Participant",
+  "type": "object",
+  "properties": {
+    "deviceId": {
+      "type": "string",
+      "description": "Random per-device identifier"
+    },
+    "name": {
+      "type": "string",
+      "description": "Participant name"
+    },
+    "startDate": {
+      "type": "string",
+      "description": "Challenge start date (YYYY-MM-DD)"
+    },
+    "challengeLength": {
+      "type": "number",
+      "description": "Challenge length in days"
+    },
+    "completedDays": {
+      "type": "number",
+      "description": "Number of completed challenge days"
+    },
+    "lastActive": {
+      "type": "string",
+      "description": "Last time this device synced"
+    }
+  },
+  "required": [
+    "deviceId"
+  ],
+  "rls": {
+    "read": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "create": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "update": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "delete": {
+      "user_condition": {
+        "role": "admin"
+      }
+    }
+  }
+}
